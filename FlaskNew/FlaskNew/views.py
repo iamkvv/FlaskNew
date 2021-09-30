@@ -1,7 +1,10 @@
 """
 Routes and views for the flask application.
+ссылки:
+https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-ru
+https://inloop.github.io/sqlite-viewer/
 """
-
+ 
 from datetime import datetime
 from flask import render_template,request, url_for, flash, redirect
 from werkzeug.exceptions import abort
